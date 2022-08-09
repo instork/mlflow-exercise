@@ -6,3 +6,4 @@ ipykernel>=6.12.*
 ipython>=7.32.*
 shap>=0.40.*
 jupyter
+minio

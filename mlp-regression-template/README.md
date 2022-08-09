@@ -135,5 +135,13 @@ mlflow ui \
    --default-artifact-root ./metadata/mlflow/mlartifacts \
    --host localhost
 ```
+```sh
+mlflow ui \
+   --backend-store-uri sqlite:///metadata/mlflow/mlruns.db \
+   --default-artifact-root ./metadata/mlflow/mlartifacts \
+   --host 172.30.1.36 \
+   --port 8080
+```
+
 
 3. Open a browser tab pointing to [http://127.0.0.1:5000](http://127.0.0.1:5000)
